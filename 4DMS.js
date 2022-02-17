@@ -524,7 +524,7 @@ function count_internal(p) {
 function sortList(list) {
     for(var i = 0; i < list.length; ++i) {
         list[i].project();
-        for(var j = i + 1; j < list.lenght; ++j) {
+        for(var j = i + 1; j < list.length; ++j) {
             list[j].project();
             if(list[i].cartesian.x > list[j].cartesian.x) {
                 var t = list[i];
